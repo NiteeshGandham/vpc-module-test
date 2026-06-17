@@ -5,4 +5,7 @@ module "vpc" {
     vpc_tags = {
         team = "DevOps"
     }
+    subnet_tags = {
+        team = "DevOps team"
+    }
 }
